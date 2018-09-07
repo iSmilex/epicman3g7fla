@@ -101,7 +101,7 @@ client.login(process.env.BOT_TOKEN);
 
 
 //////////////////////////////////////////////////////////////////////
-const first = new Discord.client();
+const first = new Discord.Client();
 
 first.on('ready', () => {
     console.log(`Logged in as ${first.user.tag}!`);
@@ -377,7 +377,7 @@ ${prefix1}queue ⇏ لمعرفة قآئمة التشغيل
    
 first.login(process.env.FIRST_TOKEN);
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-const second = new Discord.client();
+const second = new Discord.Client();
 
 second.on('ready', () => {
     console.log(`Logged in as ${second.user.tag}!`);
@@ -653,7 +653,7 @@ ${prefix2}queue ⇏ لمعرفة قآئمة التشغيل
    
 second.login(process.env.SECOND_TOKEN);
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-const third = new Discord.client();
+const third = new Discord.Client();
 
 third.on('ready', () => {
     console.log(`Logged in as ${third.user.tag}!`);
