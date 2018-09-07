@@ -100,9 +100,7 @@ channel.guild.owner.send(`<@!${channelremover.id}>
 client.login(process.env.BOT_TOKEN);
 
 
-///////////////////////////////////////////////////////////////////////
-const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
-const queue = new Map();
+//////////////////////////////////////////////////////////////////////
 const first = new Discord.client();
 
 first.on('ready', () => {
@@ -379,8 +377,6 @@ ${prefix1}queue ⇏ لمعرفة قآئمة التشغيل
    
 first.login(process.env.FIRST_TOKEN);
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
-const queue = new Map();
 const second = new Discord.client();
 
 second.on('ready', () => {
@@ -657,8 +653,6 @@ ${prefix2}queue ⇏ لمعرفة قآئمة التشغيل
    
 second.login(process.env.SECOND_TOKEN);
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
-const queue = new Map();
 const third = new Discord.client();
 
 third.on('ready', () => {
