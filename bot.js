@@ -101,6 +101,13 @@ client.login(process.env.BOT_TOKEN);
 
 
 //////////////////////////////////////////////////////////////////////
+const ytdl = require("ytdl-core");
+const { first, Util } = require('discord.js');
+const getYoutubeID = require('get-youtube-id');
+const fetchVideoInfo = require('youtube-info');
+const YouTube = require('simple-youtube-api');
+const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
+const queue = new Map();
 const first = new Discord.Client();
 
 first.on('ready', () => {
