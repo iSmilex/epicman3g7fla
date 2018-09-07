@@ -927,4 +927,4 @@ ${prefix3}queue ⇏ لمعرفة قآئمة التشغيل
    }
    }); 
    
-third.login(process.env.third_TOKEN);
+third.login(process.env.THIRD_TOKEN);
